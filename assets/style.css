@@ -1,0 +1,125 @@
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 35px auto;
+}
+.wpxpo-pop {
+    text-align: center;
+    padding-right: 40px;
+}
+.wpxpo-pop-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.wpxpo-pop-description {
+    margin-bottom: 20px;
+}
+.wpxpo-pop input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input, select, textarea {
+    border: 0;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #e0e0e0;
+    background-color: #f4f5f7;
+    font-family: Lato,sans-serif;
+    line-height: 1.5;
+}
+.xpo-btn {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: .4s;
+    line-height: 24px;
+    cursor: pointer;
+}
+.xpo-btn-primary {
+        background: #037fff;
+    color: #fff;
+}
+.wpxpo-pop img {
+    display: none;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+.mfp-close {
+    color: #333;
+}
+button.mfp-close, button.mfp-arrow {
+    overflow: visible;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    outline: none;
+    padding: 0;
+    z-index: 1046;
+    box-shadow: none;
+    touch-action: manipulation;
+}
+.mfp-close,.close-btn {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0.65;
+    padding: 0 0 18px 10px;
+    color: #333;
+    font-style: normal;
+    font-size: 28px;
+    font-family: Arial, Baskerville, monospace;
+}
+.mfp-close, .mfp-arrow, .mfp-preloader, .mfp-counter {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.mfp-bg {
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1042;
+    overflow: hidden;
+    position: fixed;
+    background: #0b0b0b;
+    opacity: 0.8;
+    display: none;
+    
+}
+.close-btn{
+    overflow: visible;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    outline: none;
+    padding: 0;
+    z-index: 1046;
+    box-shadow: none;
+    touch-action: manipulation;
+}
+.selected-option {
+    background-color: yellow;
+}
